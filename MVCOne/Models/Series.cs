@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 
 namespace MVCOne.Models
 {
-    public class Country
+    public class Series
     {
-        public int ID { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
-        public string CountryCode { get; set; }
+        public string Discription { get; set; }
     }
 }

@@ -7,5 +7,7 @@ namespace MVCOne.Models
 {
     public class Gendar
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
     }
 }
